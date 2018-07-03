@@ -21,28 +21,30 @@
     </dependency>
     <dependency>
       <groupId>com.lightbend.lagom</groupId>
-      <artifactId>lagom-javadsl-server_2.11</artifactId>
+      <artifactId>lagom-javadsl-server_2.12</artifactId>
     </dependency>
     <dependency>
       <groupId>com.lightbend.lagom</groupId>
-      <artifactId>lagom-javadsl-persistence-cassandra_2.11</artifactId>
+      <artifactId>lagom-javadsl-persistence-cassandra_2.12</artifactId>
     </dependency>
     <dependency>
       <groupId>com.lightbend.lagom</groupId>
-      <artifactId>lagom-logback_2.11</artifactId>
+      <artifactId>lagom-logback_2.12</artifactId>
     </dependency>
     <dependency>
       <groupId>com.typesafe.play</groupId>
-      <artifactId>play-netty-server_2.11</artifactId>
+      <!--<artifactId>play-netty-server_2.12</artifactId>-->
+      <artifactId>play-akka-http-server_2.12</artifactId>
     </dependency>
     <dependency>
       <groupId>com.lightbend.lagom</groupId>
-      <artifactId>lagom-javadsl-testkit_2.11</artifactId>
+      <artifactId>lagom-javadsl-testkit_2.12</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.typesafe.conductr</groupId>
-      <artifactId>${conductr.lib.name}</artifactId>
+      <artifactId>lagom14-java-conductr-bundle-lib_2.12</artifactId>
+      <version>2.2.0</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven -->
     <dependency>
